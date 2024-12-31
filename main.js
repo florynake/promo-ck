@@ -23,7 +23,7 @@ const printHeader = () => {
     `));
 }
 
-// Define input and output folders
+// Define input and output folders hgf
 const inputFolder = './input';
 const timestamp = new Date().toISOString().replace(/[-:.T]/g, '');
 const outputFolder = path.join('./output', `run_${timestamp}`);
